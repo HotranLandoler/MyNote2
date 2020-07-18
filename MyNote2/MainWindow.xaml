@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MyNote2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="600" WindowStyle="None" AllowsTransparency="True" 
-        WindowStartupLocation="CenterScreen" BorderBrush="DarkCyan" BorderThickness="1">
+        Title="MyNote" Height="450" Width="600" WindowStyle="None" AllowsTransparency="True" 
+        WindowStartupLocation="CenterScreen" BorderBrush="DarkCyan" BorderThickness="1"
+        Icon="Resources/MyNoteIcon.png">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">

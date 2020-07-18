@@ -63,6 +63,7 @@ namespace MyNote2
         protected override void OnMouseLeftButtonDown(MouseButtonEventArgs e)
         {
             base.OnMouseLeftButtonDown(e);
+
             this.DragMove();
         }
 

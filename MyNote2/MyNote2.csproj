@@ -4,14 +4,20 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\MyNoteIcon.ico</ApplicationIcon>
+    <Win32Resource />
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="Resources\iconfont.ttf" />
+    <None Remove="Resources\MyNoteIcon.ico" />
+    <None Remove="Resources\MyNoteIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="Resources\iconfont.ttf" />
+    <Resource Include="Resources\MyNoteIcon.ico" />
+    <Resource Include="Resources\MyNoteIcon.png" />
   </ItemGroup>
 
 </Project>
